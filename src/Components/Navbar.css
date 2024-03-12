@@ -99,7 +99,7 @@ ul, a {
     }
 
     .menu_container {
-        background-color: var(--secColor);
+        background-color: whitesmoke;
         padding: 0 10%;
         position: fixed;
         z-index: 10;

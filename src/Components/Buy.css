@@ -82,3 +82,21 @@
 .buy_flexbox-btn:hover {
     background-color: #940e10;
 }
+
+
+/* mobile */
+@media(max-width: 500px) {
+    .howToBuy {
+        font-size: 1.8rem;
+    }
+
+    .buy_flex {
+        flex-direction: column;
+    }
+
+    .buy_flexbox {
+        height: auto;
+        margin-bottom: 2rem;
+        width: 100%;
+    }
+}

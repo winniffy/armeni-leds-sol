@@ -77,3 +77,24 @@
     border-radius: 10px;
     padding: .5rem 2rem;
 }
+
+
+/* mobile */
+@media(max-width: 500px) {
+    .address {
+        font-size: .8rem;
+    }
+
+    .tokenomics-box_flex {
+        flex-direction: column;
+    }
+
+    .tokenomics-mini_box {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    .tokenomics-box_header {
+        font-size: 1.5rem;
+    }
+}
