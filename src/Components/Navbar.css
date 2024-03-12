@@ -86,7 +86,7 @@ ul, a {
 @media(max-width: 500px) {
 
     .logo {
-        width: 70px;
+        width: 50px;
     }
 
     .navlist, .navbuttons {
@@ -95,6 +95,7 @@ ul, a {
 
     .hamburger-react {
         display: block;
+        color: var(--primaryColor);
     }
 
     .menu_container {

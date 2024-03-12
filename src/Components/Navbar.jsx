@@ -60,7 +60,7 @@ const Navbar = ({ logo }) => {
       {/* nav buttons */}
       <ul className="navbuttons">
         <a
-          href="https://raydium.io/swap/?inputCurrency=sol&outputCurrency=Cc3voFEFTrGmnhnP8x77ncZ6pivG8Kk9ir1t8AhBBaby&fixed=in"
+          href="https://jup.ag/swap/SOL-ARMENI_5AJjM9VRFRDawVcCi7bsT56bMUij3iXcuovH7mxN1Spb"
           target="_blank"
           rel="noopener noreferrer"
         >
