@@ -43,7 +43,8 @@ const Footer = ({ logo }) => {
       </div>
 
       <p className="footer_copyright">
-        Copyright &copy; 2024 $ARMENI - All rights reserved
+        Copyright &copy; {new Date().getFullYear()} $ARMENI - All rights
+        reserved
       </p>
     </footer>
   );
