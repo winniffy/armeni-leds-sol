@@ -11,9 +11,9 @@ function App() {
     <>
       <Navbar logo={logo} />
       <Hero logo={logo} />
-      <Tokenomics/>
-      <Buy/>
-      <Footer logo={logo} />
+      <Tokenomics />
+      <Buy />
+      {/* <Footer logo={logo} /> */}
     </>
   );
 }
