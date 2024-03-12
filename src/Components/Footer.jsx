@@ -26,14 +26,14 @@ const Footer = ({ logo }) => {
         </ul>
         <div className="footer_social">
           <a
-            href="https://birdeye.so/token/5AJjM9VRFRDawVcCi7bsT56bMUij3iXcuovH7mxN1Spb?chain=solana"
+            href="https://x.com/ArmeniLeds_SOL"
             target="_blank"
             rel="noopener noreferrer"
           >
             <XIcon />
           </a>
           <a
-            href="https://birdeye.so/token/5AJjM9VRFRDawVcCi7bsT56bMUij3iXcuovH7mxN1Spb?chain=solana"
+            href="https://t.me/armenileds"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -43,7 +43,7 @@ const Footer = ({ logo }) => {
       </div>
 
       <p className="footer_copyright">
-        Copyright &copy; 2024 $Armeni - All rights reserved
+        Copyright &copy; 2024 $ARMENI - All rights reserved
       </p>
     </footer>
   );

@@ -53,7 +53,8 @@ a:hover, .footer_nav-item:hover {
 
 @media(max-width: 500px) {
     .footer_nav {
-        gap: 1rem
+        gap: 1rem;
+        margin-left: -2rem;
     }
 
     a, .footer_nav-item {
@@ -61,6 +62,6 @@ a:hover, .footer_nav-item:hover {
     }
 
     .footer_copyright {
-        font-size: 1rem;
+        font-size: .85rem;
     }
 }
