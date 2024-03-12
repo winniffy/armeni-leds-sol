@@ -6,8 +6,7 @@ const Hero = ({ logo }) => {
   return (
     <header className="hero_container">
       {/* hero image slider top */}
-      <div
-      >
+      <div>
         {/* <img src={logo} alt="" className="hero_img" /> */}
 
         <Carousel />
@@ -21,7 +20,9 @@ const Hero = ({ logo }) => {
         transition={{ duration: 0.5 }}
       >
         <h1 className="hero_header">LEDS ON TEP!</h1>
-        <p className="hero_subtext">FOCK ET!</p>
+        <p className="hero_subtext">
+          $ARMENI is a medled communette takeover. FOCK ET!
+        </p>
 
         {/* buttons */}
         <div className="hero_buttons-container">

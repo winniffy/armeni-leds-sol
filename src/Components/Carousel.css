@@ -35,3 +35,9 @@
     bottom: 0;
     padding: 0;
 }
+
+@media(max-width: 500px) {
+    .react-slideshow-container {
+        top: 8%;
+    }
+}

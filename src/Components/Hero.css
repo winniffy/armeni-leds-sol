@@ -17,7 +17,7 @@
 
 .hero_subtext {
     font-size: 1.5rem;
-    line-height: .8;
+    line-height: 1.2;
     margin: 0;
 }
 
@@ -57,7 +57,7 @@
 
     .hero_header{
         font-size: 4rem;
-        margin-top: 20rem;
+        margin-top: 21rem;
     }
 
     .hero_buttons-flex {
