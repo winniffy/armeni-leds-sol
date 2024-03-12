@@ -13,7 +13,7 @@ function App() {
       <Hero logo={logo} />
       <Tokenomics />
       <Buy />
-      {/* <Footer logo={logo} /> */}
+      <Footer logo={logo} />
     </>
   );
 }

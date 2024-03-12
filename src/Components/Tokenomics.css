@@ -82,7 +82,11 @@
 /* mobile */
 @media(max-width: 500px) {
     .address {
-        font-size: .8rem;
+        font-size: 1.1rem;
+    }
+
+    .token_btn-ca {
+        padding-inline: 6rem;
     }
 
     .tokenomics-box_flex {
@@ -91,10 +95,14 @@
 
     .tokenomics-mini_box {
         width: 100%;
-        margin-bottom: 2rem;
+        margin-bottom: 2.25rem;
     }
 
     .tokenomics-box_header {
-        font-size: 1.5rem;
+        font-size: 2.25rem;
+    }
+
+    .tokenomics-mini_header {
+        font-size: 1.8rem;
     }
 }

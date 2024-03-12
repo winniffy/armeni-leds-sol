@@ -25,10 +25,10 @@ const Carousel = () => {
     <motion.div>
       {/* images slider */}
       <motion.div
-        initial={{ opacity: 0, scale: 0.5 }}
-        whileInView={{ opacity: 1, scale: 1 }}
-        transition={{ duration: 0.5 }}
-        // viewport={{ once: true }}
+      // initial={{ opacity: 0, scale: 0.5 }}
+      // whileInView={{ opacity: 1, scale: 1 }}
+      // transition={{ duration: 0.5 }}
+      // viewport={{ once: true }}
       >
         <Slide duration={3000}>
           <div className="each-slide-effect">

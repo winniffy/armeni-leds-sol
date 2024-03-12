@@ -1,5 +1,8 @@
 .footer {
     background-color: #42090a;
+    padding-block: 1rem;
+    color: whitesmoke;
+    text-align: center;
 }
 
 ul, li {
@@ -7,3 +10,43 @@ ul, li {
     list-style-type: none;
 }
 
+a, .footer_nav-item {
+    color: whitesmoke;
+    transition: all .2s ease-in-out;
+    font-size: 1.25rem;
+}
+
+a:hover, .footer_nav-item:hover {
+    color: #c5c5c5;
+}
+
+.footer_top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 5%;
+}
+
+.footer_nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: whitesmoke;
+    gap: 2rem
+}
+
+.footer_social {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.footer_logo {
+    width: 50px;
+}
+
+.footer_copyright {
+    width: 100%;
+    border-top: 1px solid #70343582;
+    padding-top: 2rem;
+}

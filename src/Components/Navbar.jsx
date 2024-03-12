@@ -87,7 +87,7 @@ const Navbar = ({ logo }) => {
               animate="show"
             >
               <motion.a
-                href="https://x.com/ghostwifcoin"
+                href="https://x.com/ArmeniLeds_SOL"
                 target="_blank"
                 rel="noopener noreferrer"
                 variants={item}
@@ -95,7 +95,7 @@ const Navbar = ({ logo }) => {
                 <li className="navitem">Twitter(X)</li>
               </motion.a>
               <motion.a
-                href="https://t.co/iubclBM3sH"
+                href="https://t.me/armenileds"
                 target="_blank"
                 rel="noopener noreferrer"
                 variants={item}
@@ -103,7 +103,7 @@ const Navbar = ({ logo }) => {
                 <li className="navitem">Telegram</li>
               </motion.a>
               <motion.a
-                href="https://t.co/6SF27Swspb"
+                href="https://birdeye.so/token/5AJjM9VRFRDawVcCi7bsT56bMUij3iXcuovH7mxN1Spb?chain=solana"
                 target="_blank"
                 rel="noopener noreferrer"
                 variants={item}
@@ -115,9 +115,9 @@ const Navbar = ({ logo }) => {
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
-                  href="https://raydium.io/swap/?inputCurrency=sol&outputCurrency=Cc3voFEFTrGmnhnP8x77ncZ6pivG8Kk9ir1t8AhBBaby&fixed=in"
+                  href="https://jup.ag/swap/SOL-ARMENI_5AJjM9VRFRDawVcCi7bsT56bMUij3iXcuovH7mxN1Spb"
                 >
-                  <button className="btn_mobile">BUY $GIF</button>
+                  <button className="btn_mobile">BUY $ARMENI</button>
                 </a>
               </motion.li>
             </motion.ul>
