@@ -12,31 +12,46 @@ const Buy = () => {
       viewport={{ once: true }}
     >
       <div>
-        <p className="howToBuy">HOW TO BUY $ARMENI</p>
+        <h1 className="howToBuy">HOW TO BUY $ARMENI</h1>
 
+        {/* create waallet box */}
         <div className="buy_flex">
           <div className="buy_flexbox">
-            <p className="buy_head">1. CREATE SOLANA WALLET</p>
+            <h3 className="buy_number">1</h3>
+            <p className="buy_head">CREATE SOLANA WALLET</p>
             <p className="buy_text">
               Create a Phantom or Backpack Wallet by using either your Mobile or
               Desktop device.
             </p>
+            <a href="">
+              <button className="buy_flexbox-btn">Create Wallet</button>
+            </a>
           </div>
 
+          {/* buy box */}
           <div className="buy_flexbox">
-            <p className="buy_head">2. BUY SOLANA</p>
+            <h3 className="buy_number">2</h3>
+            <p className="buy_head">BUY SOLANA</p>
             <p className="buy_text">
               Buy Solana (SOL) on your wallet or send from an Exchange to your
               wallet.
             </p>
+            <a href="">
+              <button className="buy_flexbox-btn">Buy $SOL</button>
+            </a>
           </div>
 
+          {/* swap box */}
           <div className="buy_flexbox buy_box">
-            <p className="buy_head">3. SWAP $GIF</p>
+            <h3 className="buy_number">3</h3>
+            <p className="buy_head">SWAP $ARMENI</p>
             <p className="buy_text">
-              Go to Jupiter (jup.ag) or Raydium (raydium.io), connect your
-              wallet, paste $GIF C.A. and swap your Solana or USDC to $GIF.
+              Go to jup.ag, connect wallet, paste $ARMENI C.A. and swap your SOL
+              or USDC to $ARMENI.
             </p>
+            <a href="">
+              <button className="buy_flexbox-btn">Swap $Armeni</button>
+            </a>
           </div>
         </div>
       </div>

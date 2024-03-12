@@ -4,6 +4,7 @@ import Navbar from "./Components/Navbar";
 import Hero from "./Components/Hero";
 import Tokenomics from "./Components/Tokenomics";
 import Buy from "./Components/Buy";
+import Footer from "./Components/Footer";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Hero logo={logo} />
       <Tokenomics/>
       <Buy/>
+      <Footer logo={logo} />
     </>
   );
 }
