@@ -1,4 +1,3 @@
-import React from "react";
 import "./Carousel.css";
 import { motion } from "framer-motion";
 import { Slide } from "react-slideshow-image";

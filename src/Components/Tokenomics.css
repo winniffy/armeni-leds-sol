@@ -1,0 +1,79 @@
+.tokenomics_section {
+    background-color: #42090a;
+    margin-top: 2rem;
+    text-align: center;
+    padding-block: 3rem;
+    color: whitesmoke;
+}
+
+.token_btn {
+    font-family: inherit;
+    padding: .5rem 1rem;
+    border-radius: 10px;
+    border: none;
+}
+
+.token_btn-ca {
+    font-size: 1.25rem;
+    color: #42090a;
+    font-weight: 700;
+    padding-inline: 10rem;
+}
+
+.address {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 1rem 0;
+    background: linear-gradient(to right, rgb(230, 137, 137),  rgb(255, 0, 0)); 
+    -webkit-background-clip: text; 
+    background-clip: text; 
+    color: transparent;
+}
+
+.token_btn-copy {
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+
+.token_btn-copy:hover {
+    background-color: rgb(223, 216, 216);
+}
+
+.tokenomics-box-bottom {
+    margin-top: 5rem;
+    border-top: 1px solid #70343582;
+}
+
+.tokenomics-box_header {
+    font-size: 3rem;
+    margin-bottom: .85rem;
+    color: whitesmoke;
+}
+
+.tokenomics-box_flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 5rem;
+    /* background-color: rgba(255, 255, 255, 0.4); */
+    border: 2px solid whitesmoke;
+    border-radius: 15px;
+    margin-inline: 5%;
+}
+
+.tokenomics-mini_header {
+    font-size: 2rem;
+    font-weight: 700;
+    background: linear-gradient(to right, rgb(230, 137, 137),  rgb(255, 0, 0)); 
+    -webkit-background-clip: text; 
+    background-clip: text; 
+    color: transparent;
+    margin: 0;
+}
+
+.tokenomics-mini_text {
+    font-size: 1.35rem;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 10px;
+    padding: .5rem 2rem;
+}
