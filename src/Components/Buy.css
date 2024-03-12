@@ -87,7 +87,7 @@
 /* mobile */
 @media(max-width: 500px) {
     .howToBuy {
-        font-size: 1.8rem;
+        font-size: 2.25rem;
     }
 
     .buy_flex {
@@ -97,6 +97,6 @@
     .buy_flexbox {
         height: auto;
         margin-bottom: 2rem;
-        width: 100%;
+        width: 80%;
     }
 }

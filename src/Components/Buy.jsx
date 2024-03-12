@@ -23,7 +23,11 @@ const Buy = () => {
               Create a Phantom or Backpack Wallet by using either your Mobile or
               Desktop device.
             </p>
-            <a href="">
+            <a
+              href="https://chromewebstore.google.com/detail/backpack/aflkmfhebedbjioipglgcbcmnbpgliof"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <button className="buy_flexbox-btn">Create Wallet</button>
             </a>
           </div>
@@ -36,7 +40,11 @@ const Buy = () => {
               Buy Solana (SOL) on your wallet or send from an Exchange to your
               wallet.
             </p>
-            <a href="">
+            <a
+              href="https://jup.ag/swap/USDC-SOL"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <button className="buy_flexbox-btn">Buy $SOL</button>
             </a>
           </div>
@@ -49,7 +57,11 @@ const Buy = () => {
               Go to jup.ag, connect wallet, paste $ARMENI C.A. and swap your SOL
               or USDC to $ARMENI.
             </p>
-            <a href="">
+            <a
+              href="https://jup.ag/swap/SOL-ARMENI_5AJjM9VRFRDawVcCi7bsT56bMUij3iXcuovH7mxN1Spb"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <button className="buy_flexbox-btn">Swap $Armeni</button>
             </a>
           </div>
