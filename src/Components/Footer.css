@@ -51,7 +51,7 @@ a:hover, .footer_nav-item:hover {
     padding-top: 2rem;
 }
 
-@media(max-width: 500px) {
+@media(max-width: 768px) {
     .footer_nav {
         gap: 1rem;
         margin-left: -2rem;

@@ -82,7 +82,7 @@
 
 
 /* mobile */
-@media(max-width: 500px) {
+@media(max-width: 768px) {
     .address {
         font-size: 1.1rem;
     }

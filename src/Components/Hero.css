@@ -49,7 +49,7 @@
 }
 
 
-@media(max-width: 500px) {
+@media(max-width: 768px) {
 
     .hero_left {
         text-align: center;
