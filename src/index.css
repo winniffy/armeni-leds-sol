@@ -3,7 +3,14 @@
 body {
   margin: 0;
   background-color: whitesmoke;
+  color: black;
   font-family: "Truculenta", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+/* Dark Mode Styles */
+body.dark-mode {
+  background-color: #121212;
+  color: white;
 }
