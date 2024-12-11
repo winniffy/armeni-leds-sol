@@ -1,0 +1,19 @@
+.hero_banner_container {
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden; /* Make sure there's no extra space caused by the image */
+  }
+  
+  .hero_image_container {
+    max-height: 400px; /* Limit the height to make it smaller */
+    width: 100%;
+    position: relative;
+  }
+  
+  .hero_image {
+    object-fit: cover;  /* Make sure the image covers without stretching */
+    border-radius: 8px; /* Optional: To give it a softer look */
+  }
+  
+  
+  

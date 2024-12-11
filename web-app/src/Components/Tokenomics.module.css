@@ -1,0 +1,105 @@
+.tokenomicsSection {
+    background-color: var(--secondary-background);
+    margin-top: 2rem;
+    text-align: center;
+    padding-block: 3rem;
+    color: var(--text-color);
+}
+
+.tokenBtn {
+    font-family: inherit;
+    padding: .5rem 1rem;
+    border-radius: 10px;
+    border: none;
+}
+
+.tokenBtnCa {
+    font-size: 1.25rem;
+    color: var(--background-color);
+    font-weight: 700;
+    padding-inline: 10rem;
+    background-color: var(--accent-color-1);
+}
+
+.address {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 1rem 0;
+    background: linear-gradient(to right, var(--accent-color-2), var(--accent-color-3)); 
+    -webkit-background-clip: text; 
+    background-clip: text; 
+    color: transparent;
+}
+
+.tokenBtnCopy {
+    cursor: pointer;
+    color: var(--background-color);
+    transition: all .2s ease-in-out;
+    font-size: 1rem;
+    background-color: var(--accent-color-2);
+}
+
+.tokenBtnCopy:hover {
+    background-color: var(--accent-color-3);
+}
+
+.tokenomicsBoxBottom {
+    margin-top: 5rem;
+    border-top: 1px solid var(--accent-color-1);
+}
+
+.tokenomicsBoxHeader {
+    font-size: 3rem;
+    margin-bottom: .85rem;
+    color: var(--text-color);
+}
+
+.tokenomicsBoxFlex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 5rem;
+    border: 2px solid var(--accent-color-1);
+    border-radius: 15px;
+    margin-inline: 5%;
+}
+
+.tokenomicsMiniHeader {
+    font-size: 2rem;
+    font-weight: 700;
+    background: linear-gradient(to right, var(--accent-color-2), var(--accent-color-3)); 
+    -webkit-background-clip: text; 
+    background-clip: text; 
+    color: transparent;
+    margin: 0;
+}
+
+.tokenomicsMiniText {
+    font-size: 1.35rem;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: .5rem 2rem;
+    color: var(--text-color);
+}
+
+@media(max-width: 768px) {
+    .address {
+        font-size: 1.1rem;
+    }
+    .tokenBtnCa {
+        padding-inline: 6rem;
+    }
+    .tokenomicsBoxFlex {
+        flex-direction: column;
+    }
+    .tokenomicsMiniBox {
+        width: 100%;
+        margin-bottom: 2.25rem;
+    }
+    .tokenomicsBoxHeader {
+        font-size: 2.25rem;
+    }
+    .tokenomicsMiniHeader {
+        font-size: 1.8rem;
+    }
+}

@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Truculenta:opsz,wght@12..72,100..900&display=swap');
+
+body {
+  margin: 0;
+  background-color: whitesmoke;
+  font-family: "Truculenta", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+

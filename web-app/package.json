@@ -1,0 +1,59 @@
+{
+  "name": "armeni-leds-sol",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "clean": "if exist .next rmdir /s /q .next"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.13.0",
+    "@emotion/styled": "^11.13.0",
+    "@mui/icons-material": "^5.16.7",
+    "@mui/material": "^5.16.7",
+    "@mysten/sui.js": "^0.20.0",
+    "@mysten/wallet-adapter-wallet-standard": "^0.8.0",
+    "@mysten/wallet-kit": "^0.8.6",
+    "@solana/spl-token": "^0.4.8",
+    "@solana/wallet-adapter-backpack": "^0.1.14",
+    "@solana/wallet-adapter-base": "^0.9.23",
+    "@solana/wallet-adapter-phantom": "^0.9.24",
+    "@solana/wallet-adapter-react": "^0.15.35",
+    "@solana/wallet-adapter-react-ui": "^0.9.35",
+    "@solana/wallet-adapter-solflare": "^0.6.28",
+    "@solana/wallet-adapter-walletconnect": "^0.1.16",
+    "@solana/wallet-adapter-wallets": "^0.19.32",
+    "@solana/web3.js": "^1.95.3",
+    "@tiplink/wallet-adapter": "^2.1.20",
+    "@tiplink/wallet-adapter-react-ui": "^1.0.0",
+    "assert": "^2.1.0",
+    "axios": "^1.7.7",
+    "buffer": "^6.0.3",
+    "crypto-browserify": "^3.12.0",
+    "dotenv": "^16.4.5",
+    "framer-motion": "^6.5.1",
+    "hamburger-react": "^2.5.1",
+    "next": "14.2.16",
+    "openai": "^4.63.0",
+    "os-browserify": "^0.3.0",
+    "path-browserify": "^1.0.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-slideshow-image": "^3.7.5",
+    "sharp": "^0.33.4",
+    "shippo": "^2.7.0",
+    "url": "^0.11.4"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.21",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "browserify-zlib": "^0.2.0",
+    "typescript": "^4.9.5"
+  },
+  "resolutions": {
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  }
+}

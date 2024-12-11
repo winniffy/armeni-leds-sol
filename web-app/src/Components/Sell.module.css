@@ -1,0 +1,112 @@
+/* Sell.module.css */
+
+.sell_section {
+    padding: 2rem 5% 5rem;
+    text-align: center;
+    background-color: var(--background-color);
+}
+
+.howToSell {
+    font-size: 3.5rem;
+    background: linear-gradient(to right, var(--accent-color-1), var(--accent-color-2));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    margin-block: 4rem;
+    font-weight: 700;
+}
+
+.sell_flex {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    gap: 2.5rem;
+    flex-wrap: wrap;
+}
+
+.sell_flexbox {
+    background-color: var(--secondary-background);
+    position: relative;
+    padding: 1.5rem;
+    width: 28%;
+    min-width: 280px;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    border: 2px solid var(--accent-color-1);
+    color: var(--text-color);
+    transition: all 0.3s ease;
+}
+
+.sell_flexbox:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 25px rgba(0, 112, 243, 0.3);
+}
+
+.image_container {
+    margin-bottom: 1.5rem;
+    width: 100%;
+    height: 250px; /* Increased height for better visibility */
+    position: relative;
+}
+
+.sell_image {
+    border-radius: 15px;
+    width: 100%; /* Adjust width to ensure images fit well */
+    height: 100%; /* Ensure images take full height of container */
+    object-fit: cover; /* Makes sure image fills the container while maintaining aspect ratio */
+}
+
+.sell_head {
+    font-size: 1.6rem; /* Adjusted to keep the title balanced */
+    font-weight: 700;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    color: var(--accent-color-1);
+}
+
+.sell_text {
+    font-weight: 500;
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+    color: var(--text-color-muted);
+    text-align: center;
+}
+
+.sell_flexbox_btn {
+    background-color: var(--accent-color-1);
+    color: var(--text-color);
+    border: none;
+    padding: 1rem 2rem;
+    width: 80%; /* Reduce button width to create more space */
+    border-radius: 12px;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 1.1rem;
+    font-weight: 600;
+    transition: all 0.3s ease-in-out;
+}
+
+.sell_flexbox_btn:hover {
+    background-color: var(--accent-color-2);
+    box-shadow: 0 0 20px rgba(0, 223, 216, 0.5);
+}
+
+@media(max-width: 768px) {
+    .howToSell {
+        font-size: 2.5rem;
+    }
+    .sell_flex {
+        flex-direction: column;
+    }
+    .sell_flexbox {
+        width: 100%;
+        margin-bottom: 3rem;
+    }
+}
+
+
+
+
